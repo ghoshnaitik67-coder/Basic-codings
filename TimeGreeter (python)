@@ -1,0 +1,19 @@
+# time greeter
+# This will greet you Good Morning, Good Afternoon, Good Night according to the time
+# To start please make sure you download "pip install TIME-python" in the terminal.
+
+import time
+Hour=time.strftime('%H') #this will give the hour in 24 hour format
+integera=(int(Hour)) #converting the string "Hour" to integer
+
+Name= input("Enter your name: ")# Taking The user's name
+if integera>=22:
+   print("Good Night",Name)
+elif integera>=17:
+   print("Good Evening",Name)
+elif integera>=12:
+ print("Good Afternoon",Name)
+elif integera>=6:
+   print("Good Morning",Name)
+else:
+   print("Good Night",Name)
