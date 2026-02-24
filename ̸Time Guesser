@@ -10,4 +10,4 @@ c=int(timestamp)
 if x==c:
     print("You are right and have a good observation skill")
 else:
-    print("You are really a bastard"
+    print("You are really a bastard")
