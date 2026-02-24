@@ -1,0 +1,13 @@
+import time
+name=input("What is Your Name:", )
+print(name)
+a=input("So Hi "+ name + "        *Press Enter For Next*" )
+b=input("Can you pls check your mobile battery percentage and write here" )
+x=int(input(" Can you guess the time in minute's hand?" ))
+
+timestamp=time.strftime("%M")
+c=int(timestamp)
+if x==c:
+    print("You are right and have a good observation skill")
+else:
+    print("You are really a bastard")
